@@ -17,8 +17,9 @@
 1. 폐쇄망에서 설치하는 경우 사용하는 image repository에 Tekton Pipelines 설치 시 필요한 이미지를 push한다.
     * 작업 디렉토리 생성 및 환경 설정
    ```bash
-   git clone https://github.com/tmax-cloud/install-tekton.git -b 5.0 --single-branch
-   cd install-tekton
+   git clone https://github.com/learncloud/install-tektoncicd-5.0
+   cd install-tektoncicd-5.0/
+   cd manifest/
    
    source common.sh
    source installer_pipeline.sh
