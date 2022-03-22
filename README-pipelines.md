@@ -31,7 +31,7 @@
    ```bash
    # 생성된 파일 모두 SCP 또는 물리 매체를 통해 폐쇄망 환경으로 복사
    cd ..
-   scp -r install-tekton <REMOTE_SERVER>:<PATH>
+   scp -r install-tektoncicd-5.0 <REMOTE_SERVER>:<PATH>
    ``` 
 
 3. cicd.config 설정
