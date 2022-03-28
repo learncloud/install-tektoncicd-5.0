@@ -8,6 +8,7 @@
 ### 폐쇄망일 경우
 1. 온라인 환경에서 준비
    ```bash
+   #/installer.sh install을 하기전에 해줘야함
    ./installer.sh prepare-online
    ```
 2. 해당 폴더 (`./yaml`, `./tar` 포함) 폐쇄망 환경으로 복사
@@ -17,6 +18,7 @@
    ```
 ### 공통
 ```bash
+#./installer.sh prepare-online를 해준후 install을 해야함
 ./installer.sh install
 ```
 
