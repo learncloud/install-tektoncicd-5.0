@@ -31,7 +31,13 @@
    ```
 #### 공통
 ```bash
+# public 환경에서 실행할경우 './installer.sh install'를 바로 실행하면됩니다
 ./installer.sh install
+
+# private 환경에서 실행할 경우
+# 1. cicd쪽 tar 이미지를 docker pull,push합니다
+# 2. ./installer.sh prepare-offline'를 실행합니다
+# 3. ./installer.sh install를 진행합니다
 
 ```
 
