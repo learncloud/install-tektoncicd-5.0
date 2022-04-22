@@ -25,6 +25,7 @@
    source installer_pipeline.sh
     
    prepare_tekton_pipeline_online
+   
    ```
 
 2. 폐쇄망 환경으로 전송
@@ -48,6 +49,7 @@
    source installer_pipeline.sh
    
    prepare_tekton_pipeline_offline
+   
    ```
 
 ## 설치 가이드
@@ -61,6 +63,7 @@
    source installer_pipeline.sh
   
    install_tekton_pipeline 
+   
    ```
 
 
@@ -75,4 +78,5 @@
    source installer_pipeline.sh
   
    uninstall_tekton_pipeline 
+   
    ```
