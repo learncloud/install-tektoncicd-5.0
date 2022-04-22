@@ -28,7 +28,7 @@
    ```bash
    # 생성된 파일 모두 SCP 또는 물리 매체를 통해 폐쇄망 환경으로 복사
    cd ..
-   scp -r install-tekton <REMOTE_SERVER>:<PATH>
+   #scp -r install-tekton <REMOTE_SERVER>:<PATH>
    scp -r install-tekton 192.168.178.17:5000
    
    ``` 
