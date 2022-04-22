@@ -23,12 +23,15 @@
    ```bash
    # 생성된 파일 모두 SCP 또는 물리 매체를 통해 폐쇄망 환경으로 복사
    cd ..
-   scp -r install-tekton <REMOTE_SERVER>:<PATH>
+   #scp -r install-tekton <REMOTE_SERVER>:<PATH>
+   scp -r install-tekton 192.168.178.17:5000
+   
    ``` 
 
 3. cicd.config 설정
    ```config
-   imageRegistry=172.22.11.2:30500 # 레지스트리 주소 (폐쇄망 아닐 경우 빈 값으로 설정)
+   imageRegistry=192.168.178.17:5000 # 레지스트리 주소 (폐쇄망 아닐 경우 빈 값으로 설정)
+   
    ```
 
 4. 위의 과정에서 생성한 tar 파일들을 폐쇄망 환경으로 이동시킨 뒤 사용하려는 registry에 이미지를 push한다.
